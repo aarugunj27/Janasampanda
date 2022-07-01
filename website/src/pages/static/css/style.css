@@ -1,0 +1,14 @@
+.text {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}

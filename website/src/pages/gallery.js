@@ -1,10 +1,10 @@
 import React from "react";
-import './css.style.css';
+import './static/css/style.css';
 
 function Gallery() {
     return (
-        <div className="text">
-            <h1>Gallery</h1>
+        <div>
+            <h1 className="text">Galllery</h1>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import './css.style.css';
+import './static/css/style.css';
 
 function Contact() {
     return (
-        <div className="text">
-            <h1>Conctact</h1>
+        <div>
+            <h1 className="text">Contact</h1>
         </div>
     )
 }

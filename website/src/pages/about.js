@@ -1,10 +1,10 @@
 import React from "react";
-import './css.style.css';
+import './static/css/style.css';
 
 function About() {
     return (
-        <div className="text">
-            <h1>About</h1>
+        <div>
+            <h1 className="text">About</h1>
         </div>
     )
 }
