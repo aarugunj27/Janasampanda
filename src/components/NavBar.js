@@ -10,6 +10,7 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import Logo from '../pages/static/images/logo.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>Logo</MDBNavbarBrand>
+        <MDBNavbarBrand href='/'><img src={Logo} width="12.5%" height="12.5%"></MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
