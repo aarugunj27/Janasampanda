@@ -19,7 +19,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'><img src={Logo} width="12.5%" height="12.5%"/></MDBNavbarBrand>
+        <MDBNavbarBrand href='/'><img src={Logo} width="10" height="10"/></MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
