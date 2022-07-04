@@ -6,6 +6,7 @@ import Contact from './pages/contact.js'
 import Gallery from './pages/gallery.js'
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route exact path="/donate" element={ <Donate/> } />
         <Route exact path="/gallery" element={ <Gallery/> } />
       </Routes>
+      <Footer />
     </div>
   );
 }
