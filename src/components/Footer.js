@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import '../pages/static/css/style.css';
+import Logo from '../pages/static/images/logo.jpeg'
 
 function Footer() {
   return (
@@ -9,11 +10,7 @@ function Footer() {
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                 <MDBCol md="6">
-                    <h5 className="title">Footer Content</h5>
-                    <p>
-                    Here you can use rows and columns here to organize your footer
-                    content.
-                    </p>
+                    <h5 className="title"><img src={Logo} height="100px" alt='Logo' /></h5>
                 </MDBCol>
                 <MDBCol md="6">
                     <h5 className="title">Links</h5>
