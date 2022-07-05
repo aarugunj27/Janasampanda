@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
   return (
