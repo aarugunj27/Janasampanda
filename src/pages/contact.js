@@ -5,6 +5,7 @@ function Contact() {
     return (
         <div>
             <h1 className="text">Contact</h1>
+        {/*
          <form id="contactform" method="POST" onsubmit={this.handleSubmit.bind(this)}>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -17,6 +18,7 @@ function Contact() {
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+           */}
         </div>
         
     )
