@@ -16,16 +16,19 @@ function Footer() {
                     <h5 className="title">Links</h5>
                     <ul>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 1</a>
+                        <a className="footer-link" href="/">Home</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 2</a>
+                        <a className="footer-link" href="/about">About Us</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 3</a>
+                        <a className="footer-link" href="/contact">Contact</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 4</a>
+                        <a className="footer-link" href="/gallery">Gallery</a>
+                    </li>
+                    <li className="list-unstyled">
+                        <a className="footer-link" href="/donate">Donate</a>
                     </li>
                     </ul>
                 </MDBCol>
