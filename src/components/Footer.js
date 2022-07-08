@@ -16,22 +16,25 @@ function Footer() {
                     <h5 className="title">Links</h5>
                     <ul>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 1</a>
+                        <a className="footer-link" href="/">Home</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 2</a>
+                        <a className="footer-link" href="/about">About</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 3</a>
+                        <a className="footer-link" href="/contact">Contact</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="#!">Link 4</a>
+                        <a className="footer-link" href="/gallery">Gallery</a>
+                    </li>
+                    <li className="list-unstyled">
+                        <a className="footer-link" href="/donate">Donate</a>
                     </li>
                     </ul>
                 </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div className="footer-copyright text-center py-3">
+            <div itemId="copyright" className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
                     &copy; {new Date().getFullYear()} Copyright: <a className="footer-link" href="https://janasampanda-test.herokuapp.com/"> Janasampanda.org </a>
                 </MDBContainer>
