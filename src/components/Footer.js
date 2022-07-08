@@ -19,7 +19,7 @@ function Footer() {
                         <a className="footer-link" href="/">Home</a>
                     </li>
                     <li className="list-unstyled">
-                        <a className="footer-link" href="/about">About</a>
+                        <a className="footer-link" href="/about">About Us</a>
                     </li>
                     <li className="list-unstyled">
                         <a className="footer-link" href="/contact">Contact</a>
