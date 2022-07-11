@@ -23,8 +23,22 @@
 }
 
 .footer-link {
-    text-decoration: none !important;
+    list-style: none !important;
+    border: none !important;
     color: white !important;
+    text-decoration: none !important;
+
+}
+
+.list-unstyled {
+    flex-direction: column !important;
+    left: 75% !important;
+    position: relative !important;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
 }
 
 .footer-link:hover {
@@ -32,6 +46,28 @@
     transition: 0.3s;
 }
 
-#copyright {
-    background-color: black !important;
+.title {
+    left: 75%;
+    position: relative !important;
+    font-size: 1.15em;
+    border-bottom: 2px solid #6b8cff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.footer-img {
+    padding-top: 1%;
+    float: left;
+    height: 7% !important;
+    width: 7% !important;
+    left: 5% !important;
+    position: relative !important;
+}
+
+.footer-content {
+    display: inline;
+    padding-top: 20% !important;
+    margin-top: 10% !important;
+    left: 40%;
+    position: relative !important;
 }

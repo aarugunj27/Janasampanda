@@ -10,7 +10,7 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import Logo from '../pages/static/images/logo.jpeg'
+import Logo from '../pages/static/images/logo.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
