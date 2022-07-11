@@ -1,4 +1,4 @@
-import { Card } from "mdbreact/dist/mdbreact";
+import { Card } from 'react-bootstrap';
 import React from "react";
 import './static/css/style.css';
 
