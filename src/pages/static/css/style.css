@@ -17,6 +17,31 @@
   text-align: center;
 }
 
+/* Navbar */
+
+.nav-item a {
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.nav-item a:after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: #4A4A4B !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+}
+
+.nav-item a:hover:after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
 /*==================== 
 	Footer 
 ====================== */
@@ -26,7 +51,7 @@ footer .main-footer{	padding: 20px 0;	background: #F8F9FA;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
-.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright {	background: #eeecec; padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
@@ -58,8 +83,30 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
 	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{	margin-bottom: 18px;}
-.widget li a{	color: #ff8d1e;}
-.widget li a:hover{	color: #4b92dc;}
+.widget li a {	
+  color: #707071; 
+  text-decoration: none; 
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out; 
+  display: inline-block;
+  position: relative;
+}
+.widget li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4A4A4B;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+.widget li a:hover:after {	
+  color: #4A4A4B;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
 .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
