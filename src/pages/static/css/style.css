@@ -19,12 +19,12 @@
 
 /* Navbar */
 
-.nav-item a {
+.nav-link {
   display: inline-block !important;
   position: relative !important;
 }
 
-.nav-item a:after {
+.nav-link:after {
   content: '' !important;
   position: absolute !important;
   width: 100% !important;
@@ -33,13 +33,13 @@
   bottom: 0 !important;
   left: 0 !important;
   background-color: #4A4A4B !important;
-  transform-origin: bottom right !important;
+  transform-origin: bottom center !important;
   transition: transform 0.25s ease-out !important;
 }
 
-.nav-item a:hover:after {
+.nav-link:hover:after {
   transform: scaleX(1) !important;
-  transform-origin: bottom left !important;
+  transform-origin: bottom center !important;
 }
 
 /*==================== 
@@ -85,6 +85,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.subscribe p{	margin-bottom: 18px;}
 .widget li a {	
   color: #707071; 
+  padding: 3px 7px;
   text-decoration: none; 
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out; 
   display: inline-block;

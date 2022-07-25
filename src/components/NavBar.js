@@ -32,7 +32,7 @@ export default function App() {
 
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
-            <MDBNavbarItem className='nav-item'>
+            <MDBNavbarItem>
               <MDBNavbarLink href='/'>Home</MDBNavbarLink>
             </MDBNavbarItem>
 
