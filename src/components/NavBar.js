@@ -11,7 +11,8 @@ import {
   MDBCollapse
 } from 'mdb-react-ui-kit';
 import Logo from '../pages/static/images/logo.jpeg';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
 
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);
