@@ -100,13 +100,13 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
   bottom: 0;
   left: 0;
   background-color: #4A4A4B;
-  transform-origin: bottom right;
+  transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
 .widget li a:hover:after {	
   color: #4A4A4B;
   transform: scaleX(1);
-  transform-origin: bottom left;
+  transform-origin: bottom center;
 }
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
