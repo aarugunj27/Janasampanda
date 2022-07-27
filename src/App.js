@@ -8,10 +8,12 @@ import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 import Work from './pages/work.js';
+import AnnouncementBar from "./components/AnnouncementBar.js";
 
 export default function App() {
   return (
     <div className="App">
+      <AnnouncementBar/>
       <NavBar/>
       <Routes>
         <Route exact path="/" element={ <Home/> } />
