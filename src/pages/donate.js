@@ -1,6 +1,7 @@
 import React from "react";
 import './static/css/style.css';
 import GooglePayButton from '@google-pay/button-react';
+import './static/css/style.css';
 
 function Donate() {
     return (

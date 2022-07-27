@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import UploadForm from '../components/UploadForm.js';
 import ImageGrid from '../components/ImageGrid.js';
 import Modal from '../components/Modal.js';
+import './static/css/style.css';
 
 function Gallery() {
   const [selectedImg, setSelectedImg] = useState(null);

@@ -17,6 +17,12 @@
   text-align: center;
 }
 
+/* Text Highlight */
+
+::selection {
+  background-color: #ffe987 !important;
+}
+
 /* Navbar */
 
 .nav-link {
