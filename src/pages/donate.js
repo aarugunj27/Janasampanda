@@ -44,7 +44,7 @@ function Donate() {
           onLoadPaymentData={paymentRequest => {
             console.log('load payment data', paymentRequest);
           }}
-          buttonType='Donate'
+          buttonType="donate"
         />
       </div>  
     )
