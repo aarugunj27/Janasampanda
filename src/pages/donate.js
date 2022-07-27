@@ -6,6 +6,7 @@ import './static/css/style.css';
 function Donate() {
     return (
       <div className="button">
+        <title>Donate</title>
         <h1>Donate Today!</h1>
         <GooglePayButton className="button"
           environment="TEST"

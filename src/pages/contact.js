@@ -4,6 +4,7 @@ import './static/css/style.css';
 function Contact() {
     return (
         <div>
+            <title>Contact</title>
             <h1 className="text">Contact</h1>
         {/*
          <form id="contactform" method="POST" onsubmit={this.handleSubmit.bind(this)}>

@@ -80,11 +80,11 @@
 ====================== */
 
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #F8F9FA;}
+footer .main-footer{	padding: 20px 0;	background: #F8F9FA; bottom: 0 !important; width: 100% !important; position: fixed !important;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
-.footer-copyright {	background: #eeecec; padding: 5px 0;}
+.footer-copyright {	background: #eeecec; padding: 5px 0; bottom: 0 !important; width: 100%; position: fixed !important;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}

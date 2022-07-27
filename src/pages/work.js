@@ -4,6 +4,10 @@ import './static/css/style.css';
 
 function Work() {
   return (
+    <div>
+    <head>
+      <title>Work</title>
+    </head>
     <section class="content-summary-section">
     <div data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
       <div class="container p-10 my-5">
@@ -57,6 +61,7 @@ function Work() {
       </div>
     </div>
   </section>
+  </div>
   );
 }
 
