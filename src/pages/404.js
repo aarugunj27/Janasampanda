@@ -3,7 +3,8 @@ import './static/css/404.css';
 
 function PageNotFound() {
     return (
-        <div class="errorpage">   
+        <div class="errorpage">
+            <title>Oops!</title>   
             <h1 class="lead"><b>Oops!</b></h1> 
             <h2 class="explain">We can't seem to find the page you're looking for.</h2>
             <br />
