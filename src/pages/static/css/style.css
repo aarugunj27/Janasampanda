@@ -229,7 +229,7 @@ transition: all 250ms ease-in-out 0s;
   cursor: pointer !important;
 }
 /* Subtext changes on card hover */
-.card-hover:hover .text-muted {
+.card-hover:hover .card-text {
   color: white !important;
 }
 /* Icon changes on card hover */

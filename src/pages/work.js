@@ -21,7 +21,7 @@ function Work() {
                 <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
               </svg>
               <h1 class="card-title font-weight-bold">Education</h1>
-              <p class="card-text text-muted">Take a look at how we are impacting our community through the spread of Education.</p>
+              <p class="card-text">Take a look at how we are impacting our community through the spread of Education.</p>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ function Work() {
                 <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
               </svg>
               <h1 class="card-title font-weight-bold">Health</h1>
-              <p class="card-text text-muted">Take a look at how we are attempting to promote good health within our community.</p>
+              <p class="card-text">Take a look at how we are attempting to promote good health within our community.</p>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ function Work() {
                 <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
               </svg>
               <h1 class="card-title font-weight-bold">Awarness</h1> 
-              <p class="card-text text-muted">Gain some insight into how we are attempting to spread awareness in our community</p>
+              <p class="card-text">Gain some insight into how we are attempting to spread awareness in our community</p>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ function Work() {
                 <path fill-rule="evenodd" d="M14 3H2v7h12V3zM2 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
               </svg>
               <h1 class="card-title font-weight-bold">Environment</h1>
-              <p class="card-text text-muted">See how we are doing our part to save Earth and the environment.</p>
+              <p class="card-text">See how we are doing our part to save Earth and the environment.</p>
             </div>
           </div>
         </div>

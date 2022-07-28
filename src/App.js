@@ -9,6 +9,7 @@ import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 import Work from './pages/work.js';
 import AnnouncementBar from "./components/AnnouncementBar.js";
+import PageNotFound from "./pages/404.js";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <AnnouncementBar/>
       <NavBar/>
       <Routes>
+        <Route exact path="*" element={ <PageNotFound/> } />
         <Route exact path="/" element={ <Home/> } />
         <Route exact path="/about" element={ <About/> } />
         <Route exact path="/contact" element={ <Contact/> } />
